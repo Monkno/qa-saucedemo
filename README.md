@@ -56,11 +56,13 @@ Automated Scenarios
 The following Login scenarios are automated:
 
 TC-LOGIN-001 Login with valid credentials (standard_user)
+
 TC-LOGIN-004 Login with empty Username and Password
+
 TC-LOGIN-007 Login with invalid credentials
+
 TC-LOGIN-008 Login with locked out user
+
 TC-LOGIN-009 Login with credentials containing leading and trailing spaces
 
-Notes
-Tests are implemented using stable locators and a Page Object Model approach to ensure maintainability and reduce flakiness.
-The automation focuses on high-value and critical login scenarios aligned with the documented test cases and reported bugs.
+Note: The automation focuses on high-value and critical login scenarios aligned with the documented test cases and reported bugs.
